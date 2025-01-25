@@ -1,0 +1,54 @@
+{
+    "name": "CustomActions",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "8c60ebab-a7b1-4aaa-acca-326b85b976fd",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "d9aaf57d-97e7-48e3-8552-7211755cff4f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PrepareCook",
+                    "type": "Button",
+                    "id": "a64f8f11-0a82-4998-b657-293cb9472ac7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c1be6215-2f05-420a-a4a0-ac9295166589",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a2db302f-2394-4058-8ff3-8cfe6d8c0ca1",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrepareCook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
