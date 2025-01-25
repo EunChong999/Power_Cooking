@@ -33,14 +33,6 @@ public class Shop : MonoBehaviour
                     food.transform.localPosition = new Vector3(0, 0.5f, 0);
                     player.foodObject = food;
                 }
-                else
-                {
-                    Debug.Log("너 돈 없다?");
-                }
-            }
-            else
-            {
-                Debug.Log("너 손에 음식 있다?");
             }
         }
     }

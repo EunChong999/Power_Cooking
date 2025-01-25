@@ -27,11 +27,9 @@ public class DataManager : MonoBehaviour
         else Destroy(gameObject);
          Load();
         int result = userDatas.Count;
-        Debug.Log(result);
     }
     public void Save()
     {
-        Debug.Log("아 제발");
         ES3.Save("New_Data", userDatas);
     }
     public void Load()

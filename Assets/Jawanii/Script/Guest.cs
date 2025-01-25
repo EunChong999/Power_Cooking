@@ -98,14 +98,12 @@ public class Guest : MonoBehaviour
                         Destroy(GameManager.instance.playerinteraction.foodObject);
                         foodKinds[i] = FoodKind.Null;
                         currentOrderAmount++;
-                        Debug.Log("아이고난");
                         break;
                     }
                 }
             }
             if (currentOrderAmount == orderAmount)
             {
-                Debug.Log("S");
                 filling.StopAllCoroutines();
                 GameManager.instance.Success(currentGuestState, upScore,transform.position + Vector3.up * 1.5f);
             }

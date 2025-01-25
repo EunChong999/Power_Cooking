@@ -16,7 +16,6 @@ public class Plate : MonoBehaviour
     {
         if (canPlate)
         {
-            Debug.Log("아이고난");
             if (GameManager.instance.playerinteraction.currentFood == FoodKind.Null)
             {
                 if (foodkind != FoodKind.Null)
@@ -43,10 +42,6 @@ public class Plate : MonoBehaviour
 
                     foodObject.transform.SetParent(transform);
                     foodObject.transform.localPosition = new Vector3(0,0,0);
-                }
-                else
-                {
-                    Debug.Log("접시 참");
                 }
             }
         }

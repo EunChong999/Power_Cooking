@@ -14,7 +14,7 @@ public class TitleManager : MonoBehaviour
 
         start.onClick.AddListener(() =>
         {
-            Transitioner.Instance.TransitionToScene("asd");
+            Transitioner.Instance.TransitionToScene("InGame");
             UIManager.SetActiveUI(0,false);
         });
         ranking.onClick.AddListener(() =>
